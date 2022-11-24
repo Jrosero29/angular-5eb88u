@@ -1,0 +1,12 @@
+<div style="text_align: center">
+  <cincuentauno-app [minimo]="1" [maximo]="10" #selector1> </cincuentauno-app>
+  <button (click)="fijar.selector1(1)">Fijar en uno</button>
+  <button (click)="fijar.selector1(5)">Fijar en cinco</button>
+  <button (click)="fijar.selector1(10)">Fijar en dies</button>
+  <br />
+  <br />
+  <cincuentauno-app [minimo]="1" [maximo]="10" #selector2> </cincuentauno-app>
+  <button (click)="fijar.selector2(2)">Fijar en uno</button>
+  <button (click)="fijar.selector2(5)">Fijar en cinco</button>
+  <button (click)="fijar.selector2(10)">Fijar en dies</button>
+</div>
